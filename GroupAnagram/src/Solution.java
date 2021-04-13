@@ -17,6 +17,7 @@ public class Solution {
             }
             map.get(sorted).add(s);
         }
+        System.out.println(map.values());
         return new LinkedList<>(map.values());
     }
 }
